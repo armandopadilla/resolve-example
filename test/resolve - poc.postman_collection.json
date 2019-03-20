@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "758df19d-fe17-47bc-99a5-0e1509e0d5f1",
+		"name": "resolve - poc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create World - Run Me First",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"aggregateName\": \"AddDropPlayer\",\n    \"aggregateId\": \"league1\",\n    \"type\": \"initAddDrop\",\n    \"payload\": { \n    \t\"userId\": 1\n    }\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/commands",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"commands"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Player",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"aggregateName\": \"AddDropPlayer\",\n    \"aggregateId\": \"league1\",\n    \"type\": \"addPlayer\",\n    \"payload\": { \n    \t\"playerName\": \"Drew Brees\",\n    \t\"userId\": 2\n    }\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/commands",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"commands"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

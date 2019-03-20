@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8d36db5-3f7b-493d-90c6-bcbed3968673" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/functional/index.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/App.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/__snapshots__/App.test.js.snap" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/aggregates/add_drop.commands.js" afterPath="$PROJECT_DIR$/common/aggregates/add_drop.commands.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/aggregates/add_drop.projection.js" afterPath="$PROJECT_DIR$/common/aggregates/add_drop.projection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/eventTypes.js" afterPath="$PROJECT_DIR$/common/eventTypes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/read-models/add_drop.projection.js" afterPath="$PROJECT_DIR$/common/read-models/add_drop.projection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/read-models/add_drop.resolvers.js" afterPath="$PROJECT_DIR$/common/read-models/add_drop.resolvers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -101,12 +93,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runner.jmx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="runner.jmx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/load/runner.jmx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="57">
+                <caret line="3" column="45" lean-forward="false" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -144,6 +149,7 @@
         <option value="$PROJECT_DIR$/common/read-models/add_drop.resolvers.js" />
         <option value="$PROJECT_DIR$/common/eventTypes.js" />
         <option value="$PROJECT_DIR$/event-storage.db" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -194,6 +200,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resolve-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resolve-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resolve-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,6 +305,7 @@
       <recent name="$PROJECT_DIR$/common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/test/load" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -522,7 +543,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="24" width="1294" height="806" extended-state="1" />
+    <frame x="35" y="24" width="1294" height="806" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -556,13 +577,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/read-models/add_drop.resolvers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/read-models/add_drop.projection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -907,6 +921,17 @@
         <state relative-caret-position="228">
           <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="45" lean-forward="false" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
