@@ -3,8 +3,9 @@ import {
 } from '../eventTypes'
 
 export default {
+
   Init: async store => {
-    await store.defineTable('AddDropPlayer', {
+    await store.defineTable('AddDropPlayers', {
       indexes: {
         id: 'string'
       },

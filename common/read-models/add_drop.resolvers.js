@@ -1,5 +1,5 @@
 export default {
-  players: async store => {
-    return await store.find('AddDropPlayer', {}, null, { createdAt: 1 })
+  all: async store => {
+    return await store.find('AddDropPlayers', {}, null, { createdAt: 1 })
   }
 }
