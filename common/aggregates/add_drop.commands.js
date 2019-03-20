@@ -1,15 +1,13 @@
 import {
   ADD_PLAYER,
-  DROP_PLAYER,
   ADD_DROP_INIT,
 } from '../eventTypes';
 
 export default {
 
   // Initialize the world - List of players in the system.
-  initAddDrop: (state) => {
-    console.log("commands - initAddDrop...", state);
-    if (state.createdAt) throw new Error('Initial state already created.');
+  initAddDrop: state => {
+    if (state.createdAt) throw new Error('Initial state already created. So peace on out!');
 
     return {
       type: ADD_DROP_INIT,
@@ -29,12 +27,10 @@ export default {
   },
 
   addPlayer: (state, { payload: { playerName, userId } }) => {
-    console.log("command - addPlayer");
 
-    if (!playerName) throw new Error('playerName required');
-    if (!userId) throw new Error('userId required.');
+    if (!playerName) throw new Error('playerName required yo');
+    if (!userId) throw new Error('dude what?  userId required.');
 
-    console.log("command - addPlayer - command state", state);
     const found = state.players.find((player) => {
       return (player.playerName == playerName) && (player.ownerId != null)
     });
@@ -49,22 +45,8 @@ export default {
       }
     }
 
-    throw new Error('Player already taken little homie');
+    throw new Error('Player already taken little homie...');
 
-  },
-
-  /*
-  dropPlayer: (state, { payload: { playerId, userId } }) => {
-    if (!playerId) throw new Error('playerId required');
-    if (!userId) throw new Error('userId required.');
-
-
-    return {
-      type: DROP_PLAYER,
-      payload: {
-        playerId
-      }
-    }
-  }*/
+  }
 }
 
